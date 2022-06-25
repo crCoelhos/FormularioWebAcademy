@@ -6,6 +6,7 @@ function addElement({ name, url }) {
     console.log("add")
     const li = `<li class="li-listener" id=""> <a href="${url}">${name}: </a> <button class="btn btn-danger" id="exclui-fav">X</button></li>`
     ul.appendChild(li)
+//     ul.innerHTML = li
 }
 
 function removeElement(element) {
